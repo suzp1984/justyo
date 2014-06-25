@@ -1,0 +1,31 @@
+{
+  "name": "justyo",
+  "version": "0.0.2",
+  "description": "yo anyone from the command line.",
+  "main": "index.js",
+  "bin": {
+    "justyo": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/karlcoelho/justyo"
+  },
+  "keywords": [
+    "yo",
+    "send",
+    "node"
+  ],
+  "author": "Karl Coelho <karl.coelho1@gmail.com> (http://karlcoelho.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlcoelho/justyo/issues"
+  },
+  "homepage": "https://github.com/karlcoelho/justyo",
+  "dependencies": {
+    "yoplait": "^0.1.2",
+    "minimist": "^0.2.0"
+  }
+}
