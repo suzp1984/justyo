@@ -2,7 +2,7 @@
 
 var yoplait = require('yoplait');
 var args = require('minimist')(process.argv.slice(2));
-var input = argv._;
+var input = args._;
 
 var udid = yoplait.genUdid();
 var username = 'justyo ' + Date.now();
